@@ -1,17 +1,22 @@
 
 header {
     background-color: gray;
-    height: 100px;
+    height: 50px;
     width: 100%;
     display: flex;
+    flex-direction: row;
     position: relative;
+    justify-content: space-evenly;
     
 }
 
 .header-left {
     color: white;
     font-family: sans-serif;
-    justify-content: flex-start;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
 
 }
 
@@ -20,12 +25,11 @@ header {
 }
 
 .header-right {
-    justify-content: flex-end;
-
-}
-
-.header-right {
     font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
 }
 
 
@@ -36,13 +40,21 @@ main {
 
 .main-text-div {
     background-color: black;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: flow;
+    position: relative;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-text-p {
     font-weight: 800;
     font-style: bold;
-    color:goldenrod ;
+    color:rgb(228, 238, 83) ;
     font-family: sans-serif;
+    font-size: 75px;
 }
 
 .one {
@@ -53,20 +65,23 @@ main {
 
 .tb-1 {
     background-color: teal;
-    height: 200px;
-    width: 200-px;
+    height: 100px;
+    width: 100px;
+    
 }
 
 .tb-2 {
     background-color: teal;
-    height: 200px;
-    width: 200-px;
+    height: 100px;
+    width: 100px;
+    
 }
 
 .tb-3 {
     background-color: teal;
-    height: 200px;
-    width: 200-px;
+    height: 100px;
+    width: 100px;
+    
 }
 
 .two {
@@ -77,7 +92,7 @@ main {
 
 .or-1 {
     background-color: orange;
-    height: 200px;
+    height: 50px;
     width: 600px;
 }
 
@@ -101,7 +116,7 @@ main {
 
 
 footer {
-    background-color: gray;
+    background-color: rgb(52, 64, 87);
     height: 100px;
     width: 100%;
 }

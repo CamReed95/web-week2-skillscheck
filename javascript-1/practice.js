@@ -60,8 +60,10 @@ let love = 'music'
 
 function iLove(name, love) {
 	if (name === 'john' && love === 'music') 
- return name + 'loves ' + love;
+ 	name + 'loves ' + love;
 }
+
+return(iLove)
 //////////////////PROBLEM 8////////////////////
 
 // Create a copy of the faveColors array called 'colorCopy' using slice.
