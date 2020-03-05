@@ -17,6 +17,7 @@ header {
     justify-content: space-between;
     margin: 0 auto;
     align-items: center;
+    font-size: xx-large;
 
 }
 
@@ -27,9 +28,10 @@ header {
 .header-right {
     font-family: sans-serif;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     margin: 0 auto;
     align-items: center;
+    color: white;
 }
 
 
@@ -61,26 +63,29 @@ main {
     background-color: whitesmoke;
     height: 400px;
     width: 100%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .tb-1 {
-    background-color: teal;
-    height: 100px;
-    width: 100px;
+    background-color: rgb(131, 255, 158);
+    height: 300px;
+    width: 400px;
+    -moz-webkit-border-radius: 25px;
     
 }
 
 .tb-2 {
-    background-color: teal;
-    height: 100px;
-    width: 100px;
+    background-color: rgb(131, 255, 158);
+    height: 300px;
+    width: 400px;
     
 }
 
 .tb-3 {
-    background-color: teal;
-    height: 100px;
-    width: 100px;
+    background-color: rgb(131, 255, 158);
+    height: 300px;
+    width: 400px;
     
 }
 
@@ -88,29 +93,33 @@ main {
     background-color: whitesmoke;
     height: 400px;
     width: 100%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .or-1 {
     background-color: orange;
-    height: 50px;
-    width: 600px;
+    height: 300px;
+    width: 750px;
 }
 
 .or-2 {
     background-color: orange;
-    height: 200px;
-    width: 600px;
+    height: 300px;
+    width: 750px;
 }
 
 .three {
     background: whitesmoke;
-    font-size: 10px;
+    font-size: 20px;
     font-family: sans-serif;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .elephant {
-    height:150px;
-    width: 200px;
+    height:200px;
+    width: 300px;
 }
 
 
