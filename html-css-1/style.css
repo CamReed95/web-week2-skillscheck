@@ -1,14 +1,3 @@
-body {
-    background-color: whitesmoke;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: baseline;
-    align-content: stretch;
-}
-
-
 
 header {
     background-color: gray;
@@ -16,6 +5,7 @@ header {
     width: 100%;
     display: flex;
     position: relative;
+    
 }
 
 .header-left {
@@ -49,9 +39,10 @@ main {
 }
 
 .main-text-p {
-    font-weight: ;
-    font-style: ;
+    font-weight: 800;
+    font-style: bold;
     color:goldenrod ;
+    font-family: sans-serif;
 }
 
 .one {
