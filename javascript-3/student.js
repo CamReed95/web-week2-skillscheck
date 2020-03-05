@@ -39,7 +39,6 @@ function removeItem(index) {
 
 // Code Here
 function checkGroceryCount() {
-    // groceries.length
     if (groceries.length >= 5) {
         return 'That looks like a big trip'
     } else if (groceries.length < 5) {
