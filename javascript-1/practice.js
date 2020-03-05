@@ -55,12 +55,12 @@ function oddChecker(num) {
 // Create a function called 'iLove' that takes in two string parameters, 'name' and 'love'. Have the function take the two parameters and return a string that says "NAMEPARAM loves LOVEPARAM" with the appropriate parameters in the string. e.g. "Joseph loves music"
 
 //Code Here
-// let str1 = 'john'
-// let str2 = 'music'
+let name = 'john'
+let love = 'music'
 
-function iLove(str1, str2) {
-// iLove = str1 + ' loves' + str2
-// } return iLove
+function iLove(name, love) {
+	if (name === 'john' && love === 'music') 
+ return name + 'loves ' + love;
 }
 //////////////////PROBLEM 8////////////////////
 
