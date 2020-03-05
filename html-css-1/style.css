@@ -1,0 +1,116 @@
+body {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    align-content: stretch;
+}
+
+
+
+header {
+    background-color: gray;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.header-left {
+    color: white;
+    font-family: sans-serif;
+    justify-content: flex-start;
+
+}
+
+.logo-word {
+    color: rgb(250, 228, 27)
+}
+
+.header-right {
+    justify-content: flex-end;
+
+}
+
+.header-right {
+    font-family: sans-serif;
+}
+
+
+
+main {
+
+}
+
+.main-text-div {
+    background-color: black;
+}
+
+.main-text-p {
+    font-weight: ;
+    font-style: ;
+    color:goldenrod ;
+}
+
+.one {
+    background-color: whitesmoke;
+    height: 400px;
+    width: 100%;
+}
+
+.tb-1 {
+    background-color: teal;
+    height: 200px;
+    width: 200-px;
+}
+
+.tb-2 {
+    background-color: teal;
+    height: 200px;
+    width: 200-px;
+}
+
+.tb-3 {
+    background-color: teal;
+    height: 200px;
+    width: 200-px;
+}
+
+.two {
+    background-color: whitesmoke;
+    height: 400px;
+    width: 100%;
+}
+
+.or-1 {
+    background-color: orange;
+    height: 200px;
+    width: 600px;
+}
+
+.or-2 {
+    background-color: orange;
+    height: 200px;
+    width: 600px;
+}
+
+.three {
+    background: whitesmoke;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+.elephant {
+    height:150px;
+    width: 200px;
+}
+
+
+
+footer {
+    background-color: gray;
+    height: 100px;
+    width: 100%;
+}
