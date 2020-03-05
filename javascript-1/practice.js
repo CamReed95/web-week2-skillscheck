@@ -59,11 +59,12 @@ let name = 'john'
 let love = 'music'
 
 function iLove(name, love) {
-	if (name === 'john' && love === 'music') 
- 	name + 'loves ' + love;
+	return name + "loves " + love;
 }
 
-return(iLove)
+var str1 = iLove(name, love);
+// I can't figure out why I'm getting this one wrong, I've tried lots of different syntaxes and this is the most
+//recent syntax I tried 
 //////////////////PROBLEM 8////////////////////
 
 // Create a copy of the faveColors array called 'colorCopy' using slice.
@@ -76,14 +77,15 @@ let colorCopy = faveColors.slice([0])
 // Add a fourth color to the end of the 'colorCopy' array using push.
 
 //Code Here
-let newArr = faveColors.push('blue')
+colorCopy.push('blue')
 //////////////////PROBLEM 10////////////////////
 
 // Create a new array called 'middleNums' from the numbers array that will capture only the middle numbers (2, 3, 4).
 const numbers = [1, 2, 3, 4, 5]
 
 //Code Here
-let middleNums = numbers.slice([1], [3])
+let middleNums = numbers.slice([1], [2], [3]);
+// not sure what I'm doing wrong here 
 //////////////////PROBLEM 11////////////////////
 
 // Create an object called 'me' that has the following keys: firstName, state, age, and greeter. The value of the firstName key should be your name as a string. The value of the property state should be your current state or providence of residence as a string. The value of age should be your age as a number. greeter should be a method that returns the string 'Hello! My name is NAMEVALUE and I live in STATEVALUE' with the corresponding values. 
@@ -94,7 +96,7 @@ const me = {
 	state: 'AZ',
 	age: 24,
 	greeter: function greeter(str) {
-		let str = "Hello! My name is " + me.firstName + "and I live in " + state
+		 str = "Hello! My name is " + me.firstName + "and I live in " + me.state
 		return str
 	} 
 } 
@@ -121,7 +123,7 @@ function bigOrSmall(arr) {
 function arrayReverser(arr) {
 	let reversed = []
 	for (let i = 0; i = reverse.length; i--) {
-		reverse[i].push([i])
+		reversed.push([i])
 	} return reversed
 }
 //////////////////PROBLEM 14 - 18 Setup////////////////////
@@ -153,8 +155,7 @@ let total = myNumbers.reduce(acc, total) = acc + total
 // Finally, use .forEach to find the index of each item in the array. To begin, create an empty array called 'myNumbersIndex'. Then, use forEach to push each item's index from the myNumbers array into the newly created myNumbersIndex array. 
 
 // Code Here
-myNumbersIndex = []
-myNumbersIndex.forEach(elem => elem)
+myNumbersIndex = myNumbersIndex.forEach(elem => elem[i])
 //////////////////PROBLEM 18////////////////////
 
 // Did you know that George Foreman has five sons named George? Go ahead and change everyone's name in the notGeorge array to George using .map. Store the resulting array in a variable named 'forTheLoveOfGeorge'.
@@ -164,7 +165,7 @@ const notGeorge = ['Louis', 'Ted', 'Bill', 'Sharon', 'Mark', 'Angela']
 
 
 let forTheLoveOfGeorge = notGeorge.map(elem => 'George')
-
+// 
 //////////////////PROBLEM 19////////////////////
 
 // Using the people array, filter out everyone that isn't a friend into a new array called 'enemies'. Use .filter(). 
@@ -178,10 +179,12 @@ const people = [
 ]
 
 // Code Here
-let enemies = people.filter(people([2], [3]))
+let enemies = people.filter(function() {
+	return people.friend != true
+})
 //////////////////PROBLEM 20////////////////////
 
 // Using the people array above, get a total of the awesomeLevel from all the people, and store that value in a variable named 'totallyAwesome'. Use .reduce().
 
 // Code Here
-let totallyAwesome = people.reduce(people[i].awesomenessLevel)
+let totallyAwesome = people.reduce(people.awesomenessLevel)
